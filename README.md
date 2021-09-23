@@ -1,6 +1,10 @@
 # What's this about
 
-These are setups for local development
+These are setups for local development.
+
+The scripts expect `docker` command to be available on command line. Use `docker --version` to make sure it is.
+
+Tested on macOS 11.6 and [Docker 20.10.8](https://docs.docker.com/desktop/mac/install/).
 
 Each setup contains a `NAME` file, an Nginx config, and bash scripts to start and stop the container.
 
